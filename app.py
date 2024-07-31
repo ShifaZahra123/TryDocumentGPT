@@ -33,7 +33,7 @@ def main():
 
     with st.sidebar:
         uploaded_files = st.file_uploader("Upload your file", type=['pdf'], accept_multiple_files=True)
-        gemini_api_key_input = st.text_input("Google Gemini API Key", value=gemini_api_key, type="password")
+      #  gemini_api_key_input = st.text_input("Google Gemini API Key", value=gemini_api_key, type="password")
         process = st.button("Process")
     
     if process:
